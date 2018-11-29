@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=gb2312"%>
+<%@ page contentType="text/html;charset=utf-8"%>
 < page import=mybean. data. Login"%>
 8@
 >

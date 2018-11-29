@@ -54,7 +54,7 @@ public class HandleRegister extends HttpServlet{
 		if(boo)
 		{sql.setString(1,handleString(logname));
 		 sql.setString(2,handleString(password));
-     sql.setString(3,handleString(phone));		
+     sql.setString(3,handleString(phone));
      sql.setString(4,handleString(address));
      sql.setString(5,handleString(realname));
 		int m=sql.executeUpdate();
