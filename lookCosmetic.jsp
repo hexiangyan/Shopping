@@ -1,9 +1,10 @@
-<%@ page contentType ="text/html;charset=utf-8"%>
+﻿<%@ page contentType ="text/html;charset=utf-8" %>
 <%@ page import="java.sql.*" %>
-<HTML><HEAD><%@ include file="head.txt %></HEAD>
+<HTML><HEAD><%@ include file="head.txt" %></HEAD>
 <BODY background=image/back.jpg><font size=2>
 <div align="center">
 <% try{Class.forName("com.mysql.jdbc.Driver");
+}
 catch(Exception e){}
 String uri="jdbc:mysql://127.0.0.1/shop?"+
 "user=root&password=&characterEncoding=gb2312";
