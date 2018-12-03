@@ -34,7 +34,7 @@ try{
 PrintWriter out =response.getWriter();
 out.print("<%@ include file='head.txt' %></HEAD>");
 out.println("<html><body>");
-out.println("<h2>"+goods+"fangrugouwuche</h2>");
+out.println("<h2>"+goods+"放入gouwuche</h2>");
 out.println("chakangouwuchehuofanhuiliulanhuazhuangpin<br>");
 out.println("<a href=lookShoppingCar.jsp>chakangouwuche</a>");
 out.println("<br><a href=byPageShow.jsp>liulanhuazhuangpin</a>");
